@@ -29,6 +29,9 @@ public class Main {
                         if (indexPlayer != -1) {
                             break;
                         }
+                        else {
+                            System.out.println("Pleaase eneter a valid input\n");
+                        }
                     } while (true);
                     if (placeholders[indexPlayer] == null) {
                         placeholders[indexPlayer - 1] = Integer.toString(j);
